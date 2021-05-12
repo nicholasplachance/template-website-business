@@ -8,7 +8,7 @@
     width: 75%;
     max-width: 380px;
     z-index: 200;
-    background-color: #ff9800;
+    background-color: #0091FF;
     transform: translateX(-100%);
     transition: transform .4s ease-out;
 }
