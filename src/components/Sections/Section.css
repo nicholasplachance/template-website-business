@@ -3,7 +3,7 @@
     transition: 0.3s;
     border-radius: 5px;
     border: solid 1.25px #fff;
-    background-color: #877f73;
+    background-image: linear-gradient(50deg, rgba(10,10,10,0.5), rgba(0,0,0,0.5)) ;
     color: #fff;
 }
 
