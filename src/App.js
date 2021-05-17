@@ -2,6 +2,7 @@ import './App.css';
 
 import BackDrop from './components/BackDrop/BackDrop';
 import Container from './components/Container/Container';
+import Footer from './components/Footer/Footer';
 import HeroBanner from './components/HeroBanner/HeroBanner';
 import NavBar from './components/NavBar/NavBar';
 import Section from './components/Sections/Section';
@@ -35,17 +36,13 @@ function App() {
 			<SideDrawer show={sideDrawerOpen} />
 			{backdrop}
 			<HeroBanner />
-			<main style={{ marginTop: '280px' }}></main>
+			<main className='spacer'></main>
 			<Container>
 				<Section />
 				<Section />
 				<Section />
 			</Container>
-			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, magni natus enim sit recusandae non
-				maiores eveniet voluptatum, harum dignissimos rem repellendus at temporibus sed dolorem omnis soluta
-				aliquid eos?
-			</p>
+			<Footer />
 		</div>
 	);
 }

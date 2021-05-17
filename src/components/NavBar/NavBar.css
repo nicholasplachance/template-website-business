@@ -49,15 +49,15 @@
     color: #29B6F6
 }
 
-@media (max-width: 941px ) {
+@media (max-width: 939px ) {
     .navbar__items {
         display: none;
     }
 
 }
 
-@media ( min-width: 940px ) {
-    .navbar__toggle__button {
+@media ( min-width: 941px ) {
+    .navbar__toggle_button {
         display: none;
     }
 
